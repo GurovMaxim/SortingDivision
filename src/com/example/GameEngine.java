@@ -28,6 +28,7 @@ public class GameEngine {
     public void start() {
         // Prompt user to choose sorting algorithm
         promptSortingAlgorithm();
+        correctAnswers = 0;
 
         // Start game timer
         Instant gameStart = Instant.now();

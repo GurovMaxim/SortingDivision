@@ -1,7 +1,5 @@
 package com.example;
 
-import com.example.QuickSortAlgorithm;
-import com.example.SortingAlgorithm;
 
 public class SortingAlgorithmFactory {
     public SortingAlgorithm createSortingAlgorithm(String algorithm) {
